@@ -1,16 +1,25 @@
-#infi-list {
-  width: 200px;
-  height: 300px;
-  overflow: auto;
+body {
+    font-family: Arial, sans-serif;
+}
 
-  margin: 30px;
-  padding: 20px;
-  border: 10px solid black;
+.container {
+    height: 400px; /* Set a fixed height for scrolling */
+    overflow-y: auto; /* Enable vertical scrolling */
+    border: 1px solid #ccc;
+    padding: 10px;
 }
-li {
-  padding: 10px;
-  list-style-type: none;
+
+.result-container {
+    margin-bottom: 20px;
 }
-li:hover {
-  background: #ccc;
+
+.search-data {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+}
+
+.loading-container {
+    text-align: center;
+    font-weight: bold;
 }
